@@ -322,7 +322,9 @@ To adjust retry/timeout settings:
 ```bash
 RETRY_BASE_SECONDS=1.0 RETRY_MAX_SECONDS=30.0 DELIVERY_TIMEOUT_SECONDS=5.0 \
   .venv/bin/python kafka-intersight.py
-```Example/Sample Status
+```
+
+Example/Sample Status
 
 This is a **reference implementation** and sample program. It demonstrates:
 - Loading credentials from environment variables
@@ -340,3 +342,6 @@ This is a **reference implementation** and sample program. It demonstrates:
 - Adding integration and end-to-end tests
 - Setting up proper backup and disaster recovery procedures
 
+## License
+
+Distributed under the Apache 2.0 License. See [LICENSE](LICENSE) for more information.
